@@ -1,15 +1,19 @@
 #main{
     position: relative;
 }
+
+img[alt="frontbg"]{
+    width:38.5cm;
+    height: 20cm;
+}
+
 .container {
     
     position: absolute;
     height: 600px ;
     max-width: 200px;
-    margin-top: 1cm;
-    margin-bottom: 2cm;
-    margin-left: 32cm;
-    margin-right: 0cm;
+    top: 1cm;
+    left: 31cm;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -21,9 +25,10 @@ label[for="uname"], [for="psw"], [for="submit"]{
 }
 
 img[alt="Burol Main Logo"]{
-    position:fixed;
-    width: 5cm;
-    height: 5cm;
+    position:abs;
+    top: 5cm;
+    width: 5.3cm;
+    height: 5.3cm;
 }
 
 input[type="text"], input[type="password"] {
