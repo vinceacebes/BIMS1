@@ -1,0 +1,50 @@
+#main{
+    position: relative;
+}
+.container {
+    
+    position: absolute;
+    height: 600px ;
+    max-width: 200px;
+    margin-top: 1cm;
+    margin-bottom: 2cm;
+    margin-left: 32cm;
+    margin-right: 0cm;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+label[for="uname"], [for="psw"], [for="submit"]{
+    font-family: 'Roboto Slab', serif;
+
+}
+
+img[alt="Burol Main Logo"]{
+    position:fixed;
+    width: 5cm;
+    height: 5cm;
+}
+
+input[type="text"], input[type="password"] {
+    
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0074D9;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
